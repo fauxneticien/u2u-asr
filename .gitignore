@@ -1,0 +1,13 @@
+__pycache__
+.vscode
+.jupyter_*
+.ipynb_checkpoints
+.Trash*
+
+wandb/*
+
+data/*
+!data/.gitkeep
+
+tmp/*
+!tmp/.gitkeep
