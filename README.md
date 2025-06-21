@@ -10,7 +10,7 @@ In 2025, we now have:
 - efficient, pre-trained multilingual transformer models (e.g. [`mHuBERT-147`](https://www.isca-archive.org/interspeech_2024/zanonboito24_interspeech.pdf)) that can be quickly fine-tuned for ASR with very little transcribed speech
 - limited but sufficient for fine-tuning and free GPU usage on Google Colab (a small T4 instance for ~3 hours)
 - [`transformers.js`](https://huggingface.co/docs/transformers.js/en/index) which can run fine-tuned models locally in the browser
-- [Pyodide](https://pyodide.org/en/stable/) which lets your web browser can run Python scripts (i.e. for data preparation).
+- [Pyodide](https://pyodide.org/en/stable/) which lets your web browser run Python code (i.e. for data preparation).
 
 Given this landscape, it should nominally be possible put such things together for the following user-to-user workflow (or at least some parts of it).
 
